@@ -1,4 +1,4 @@
-/* Pagina de cadastro */
+/* Formulário de cadastro */
 
 body {
     background: rgba(245, 246, 250, 0.133);
@@ -21,19 +21,19 @@ body {
     color: rgb(63, 59, 59);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid rgb(63, 59, 59);
-    width: 100%;
+    width: 80%;
 }
 
-.botao-padrao {
-     background: rgba(245, 246, 250, 0.133);
-     color: rgb(63, 59, 59);
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     border: 1px solid rgb(63, 59, 59);
-     padding: 10 px 20 px;
-     cursor: pointer;
+.botao {
+    background: rgba(245, 246, 250, 0.133);
+    color: rgb(61, 0, 228);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(63, 59, 59);
+    padding: 10 px 20 px;
+    cursor: pointer;
 }
 
-#btn-salvar {
+.btn-salvar {
     background-color: blue;
-    color:navy
+    color: navy
 }
