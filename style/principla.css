@@ -123,8 +123,8 @@ nav a {
 
 /* :hover - mouse sobre o elemento */
 nav a:hover {
-    background-color: rgba(255, 255, 255, 0.15);
-    color: white;
+    background-color: rgba(14, 69, 189, 0.15);
+    color: rgb(19, 29, 177);
 }
 
 .secao-form {
@@ -132,5 +132,34 @@ nav a:hover {
     border-radius: var(--raio-lg);
     padding: var(--espaco-md);
     box-shadow: var(--sombra-sm);
-    border: 1px solid
+    border: 1px solid var(--cor-borda);
+}
+
+/* grupo label e input */
+.form-group {
+    display: flex;
+    flex-direction: column; /* label acima do input */
+    gap: var(--espaco-xs);
+    margin-bottom: var(--espaco-lg);
+}
+
+/* label: rótulo do campo */
+.form-group label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--cor-texto);
+}
+
+/* estilo unificado para input, text e select */
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: var(--espaco-sm) var(--espaco-md);
+    border: 2px solid var(--cor-borda);
+    border-radius: var(--raio-md);
+    font-size: 1rem;
+    color: var(--cor-texto);
+    background-color: var(--cor-fundo);
+    transition: border-color var(--transicao), box-shadow var(--transicao);
 }
