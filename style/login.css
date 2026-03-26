@@ -1,6 +1,5 @@
-/* Pagina login */
 body {
-    background: rgba(245, 246, 250, 0.133);
+    background: #c8f3c8;
     color: rgb(63, 59, 59);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -11,12 +10,13 @@ body {
     background-color: var(--cor-acento);
 }
 
-.label-padrao {
+.label {
     background: rgba(245, 246, 250, 0.133);
     display: block;
     font-weight: bold;
     color: rgb(63, 59, 59);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 6px 0 20px 0;
 }
 
 .input-padrao {
