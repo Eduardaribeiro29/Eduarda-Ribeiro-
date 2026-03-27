@@ -16,14 +16,14 @@
         <div class="container">
             <nav>
                 <ul id="menu-principal">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cadastro.html">Cadastro</a></li>
-                    <li><a href="login.html">Login</a></li>
+                    <li><a href="estoque.html">Estoque</a></li>
+                    <li><a href="produto.html">Cadastro de Produtos</a></li>
+                    <li><a href="lista-produtos.html">Produtos Cadastrados</a></li>
                     <li><a href="dashboard.html">Dashboard</a></li>
                 </ul>
             </nav>
             <h1>Produtos</h1>
-            <h2>Cadastro de Produtos</h2>
+            <h2>Cadastre aqui seus Produtos!</h2>
             <p>Adicione e gerencie seus produtos para manter o estoque organizado.</p>
         </div>
     </header>
@@ -33,7 +33,7 @@
             <section id="form-cadastro-produtos" class="secao-cadastro-produtos">
                 <h2>Cadastro de Produtos</h2>
 
-                <form id="cadastro-produto" action="dashboard.html" method="get">
+                <form id="cadastro-produto" action="lista-produtos.html" method="get">
                     <div class="form-cadastro-produtos">
                         <label for="nome_produto">Nome do Produto:</label>
                         <input id="nome_produto" type="text" required>
@@ -44,6 +44,9 @@
                         <input id="categoria" type="text" required>
                     </div>
 
+                    <button type="submit" class="botao-padrao">Cadastrar</button>
+                    <button type="reset" class="botao-padrao-secundario">Limpar</button>
+
                     <hr>
                     <h2>Cadastro da Nota Fiscal</h2>
                     <div class="form-cadastro-produtos">
@@ -51,45 +54,17 @@
                         <input id="cadastro_nota" type="number" required>
                     </div>
                 </form>
+
+                <button type="submit" class="botao-padrao">Cadastrar</button>
+                <button type="reset" class="botao-padrao-secundario">Limpar</button>
             </section>
         </div>
     </main>
-    
 
-    <hr>
-    <h2>Produtos Cadastrados</h2>
-    <table>
-        <tr>
-            <th>Nome do Produto</th>
-            <th>Categoria</th>
-            <th>Número da Nota Fiscal</th>
-            <th>Ações</th>
-        </tr>
-        <tr>
-            <td>Arroz Branco</td>
-            <td>Cereal</td>
-            <td>123456789</td>
-            <td>Editar | Excluir</td>
-        </tr>
-        <tr>
-            <td>Feijão Preto</td>
-            <td>Leguminosa</td>
-            <td>234567891</td>
-            <td>Editar | Excluir</td>
-        </tr>
-        <tr>
-            <td>Maçã</td>
-            <td>Fruta</td>
-            <td>34567912</td>
-            <td>Editar | Excluir</td>
-        </tr>
-        <tr>
-            <td>Leite Integral</td>
-            <td>Laticínios</td>
-            <td>456789123</td>
-            <td>Editar | Excluir</td>
-        </tr>
-    </table>
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Prazu.</p>
+        </div>
+    </footer>
 </body>
-
 </html>
