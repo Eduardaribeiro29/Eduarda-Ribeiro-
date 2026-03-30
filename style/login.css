@@ -59,14 +59,14 @@ a:hover {
 
 section { margin: auto; padding: var(--espaco-sm);}
 
-
 .form-cadastro {
     width: 100%;
     padding: 15px;
     margin: 10px;
     border: 2px solid #000000;
     background-color: var(--cor-primaria);
-    display: grid;
+    display: flexbox;
+    flex-direction: column;
     gap: 15px;
 }
 
